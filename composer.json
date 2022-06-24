@@ -1,0 +1,19 @@
+{
+    "name": "programmerzamannot/belajar-php-composer-hello",
+    "description": "Belajar Composer Hello",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Nanda Hermawansyah"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "programmerzamannot\\Belajar\\": "src/"
+        }
+    }
+}
